@@ -10,7 +10,7 @@ colors:
         blue: '#00AAFF'
         magenta: '#AA00FF'
         cyan: '#00FFAA'
-        white: '#ffffff'
+        white: '#FFFFFF'
     bright:
         black: '#000000'
         red: '#FF00AA'
@@ -19,4 +19,4 @@ colors:
         blue: '#00AAFF'
         magenta: '#AA00FF'
         cyan: '#00FFAA'
-        white: '#ffffff'
+        white: '#FFFFFF'

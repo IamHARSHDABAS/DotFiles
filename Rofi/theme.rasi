@@ -2,7 +2,7 @@
 {
 	foreground:        #AA00FF;
 	background-color:  @transparent;
-	black:             #000000;
+	black:             #11001A;
 	highlight:         bold #ffffff;
 	transparent:       rgba(0,0,0,0);
 	font:              "Source Code Pro 10";

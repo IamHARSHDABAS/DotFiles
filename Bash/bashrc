@@ -8,3 +8,4 @@ alias lf="ranger"
 alias mkdir="mkdir -p"
 alias rm="rm -rf"
 alias later="shutdown now"
+rm $HOME/Downloads

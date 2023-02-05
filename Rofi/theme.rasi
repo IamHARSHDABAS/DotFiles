@@ -1,10 +1,10 @@
 * {
 	foreground:         #7F40BF;
 	background-color:   @transparent;
-	black:              #190033;
-	highlight:          bold #E5CCFF;
+	background:         #190033;
+  selection:          #330066;
+  highlight:          #FFFFFF;
 	transparent:        rgba(0,0,0,0);
-	font:               "Source Code Pro 10";
 }
 window {
 	location:           center;
@@ -27,20 +27,18 @@ message {
 	border-color:       @foreground;
 	border-radius:      10px;
 	padding:            5;
-	background-color:   @black;
+	background-color:   @background;
 }
 message {
-	font:               "Source Code Pro 20";
-	color:              @black;
+	color:              @background;
 }
 inputbar {
 	color:              @foreground;
 	padding:            10px;
-	background-color:   @black;
+	background-color:   @background;
 	border:             5px 5px 5px 5px;
 	border-radius:      15px 15px 0px 0px;
 	border-color:       @foreground;
-	font:               "Source Code Pro 20";
 }
 entry,prompt,case-indicator {
 	text-font:          inherit;
@@ -54,7 +52,7 @@ listview {
 	border-radius:      0px 0px 20px 20px;
 	border-color:       @foreground;
 	border:             0px 5px 5px 5px;
-	background-color:   @black;
+	background-color:   @background;
 	dynamic:            false;
 	lines:              10;
 }
@@ -71,5 +69,5 @@ element-text {
 	text-color:         inherit;
 }
 element selected.normal {
-	background-color:   #402060;
+	background-color:   @selection;
 }

@@ -5,14 +5,9 @@ alias ..="cd .."
 alias cp="cp -r"
 alias ls="lsd -a"
 alias ll="lsd -alh"
-alias lf="ranger"
+alias lf="tree"
 alias mkdir="mkdir -p"
 alias rm="rm -rf"
 
 alias connect="bluetoothctl connect F4:CE:46:0C:00:82"
 alias disconnect="bluetoothctl disconnect F4:CE:46:0C:00:82"
-
-rm $HOME/Desktop
-rm $HOME/Downloads
-
-export PATH=/home/iamharshdabas/Flutter/bin/:$PATH

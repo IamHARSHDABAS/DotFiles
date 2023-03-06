@@ -11,3 +11,5 @@ alias rm="rm -rf"
 
 alias connect="bluetoothctl connect F4:CE:46:0C:00:82"
 alias disconnect="bluetoothctl disconnect F4:CE:46:0C:00:82"
+
+export PATH="$PATH:~/Flutter/bin"
